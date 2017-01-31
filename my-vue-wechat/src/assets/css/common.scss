@@ -1,0 +1,12 @@
+$top-background: linear-gradient(to bottom, #303036, #3c3b40);
+
+._cover-top {
+	position:relative;
+	height:45px;
+	line-height:45px;
+	padding: 0px 15px 0px 10px;
+	background: $top-background;
+	color: #ffffff;
+	opacity: 1;
+}
+
