@@ -10,6 +10,7 @@ import indexHeader from './components/j-index-header'
 
 require('./assets/css/common.scss')
 require('./assets/css/reset.css')
+require('./assets/css/iconfont.css')
 
 export default {
   store,
