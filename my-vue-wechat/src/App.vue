@@ -1,7 +1,8 @@
 <template>
-  <header>
+  <header class="app-header">
     <index-header></index-header>
   </header>
+  
 </template>
 
 <script>

@@ -9,7 +9,7 @@
         </li>
       </ul>
       <a class="tips-maker" v-show="tips_isOpen"></a>
-    </div>z-index:2;
+    </div>
     <div class="center">
       {{ menu_active.text }}
     </div>
