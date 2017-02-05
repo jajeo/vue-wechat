@@ -9,7 +9,7 @@
         </li>
       </ul>
       <a class="tips-maker" v-show="tips_isOpen"></a>
-    </div>
+    </div>z-index:2;
     <div class="center">
       {{ menu_active.text }}
     </div>
@@ -51,60 +51,60 @@
     right: 15px;
   }
   .other .iconfont{
-        font-size: 22px;
+    font-size: 22px;
   }
   .other .tips-menu{
-      position: absolute;
-      z-index:2;
-      width:133px;
-      font-size:16px;
-      right: -10px;
-      top: 54px;
-      text-align: left;
-      border-radius: 2px;
-      background-color: #49484b;
-      padding: 0 15px;
-      transform-origin: 90% 0%;
-    }
-    .other .tips-menu li:not(:last-child)::after{
-        content: "";
-        width: 200%;
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        height: 1px;
-        background-color: #5b5b5d;
-        transform: scale(.5);
-        transform-origin: 0 100%;
-    }
-    .other .tips-menu::before{
-        width: 0;
-        height: 0;
-        position: absolute;
-        top: -8px;
-        right: 15px;
-        content: "";
-        border-width:0 6px 8px;
-        border-color: rgba(0,0,0,0) rgba(0,0,0,0) #49484b rgba(0,0,0,0);
-        border-style: solid;
-    }
-    .other .tips-menu li{
-        position: relative;
-        height: 40px;
-        line-height: 40px;
-    }
-    .other .tips-menu .iconfont{
-        float: left;
-        font-size:16px;
-        margin-right: 15px;
-    }
-    .tips-open{
-        transition: initial;
-        opacity: 1;
-    }
-    .tips-close{
-        opacity: 0;
-        transition: .2s opacity ease ,.6s transform ease;
-        transform: scale(0);
-    }
+    position: absolute;
+    z-index:2;
+    width:133px;
+    font-size:16px;
+    right: -10px;
+    top: 54px;
+    text-align: left;
+    border-radius: 2px;
+    background-color: #49484b;
+    padding: 0 15px;
+    transform-origin: 90% 0%;
+  }
+  .other .tips-menu li:not(:last-child)::after{
+    content: "";
+    width: 200%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 1px;
+    background-color: #5b5b5d;
+    transform: scale(.5);
+    transform-origin: 0 100%;
+  }
+  .other .tips-menu::before{
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: -8px;
+    right: 15px;
+    content: "";
+    border-width:0 6px 8px;
+    border-color: rgba(0,0,0,0) rgba(0,0,0,0) #49484b rgba(0,0,0,0);
+    border-style: solid;
+  }
+  .other .tips-menu li{
+    position: relative;
+    height: 40px;
+    line-height: 40px;
+  }
+  .other .tips-menu .iconfont{
+    float: left;
+    font-size:16px;
+    margin-right: 15px;
+  }
+  .tips-open{
+    transition: initial;
+    opacity: 1;
+  }
+  .tips-close{
+    opacity: 0;
+    transition: .2s opacity ease ,.6s transform ease;
+    transform: scale(0);
+  }
 </style>
